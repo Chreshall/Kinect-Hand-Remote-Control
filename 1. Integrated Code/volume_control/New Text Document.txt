@@ -1,0 +1,8 @@
+In the process of controlling the screen using hand gestures via Kinect, I have created the hand detection functions for left and right hand. The hand skeleton is then being used for hand gesture recognition for Volume Control.
+Interaction:
+- The program displays the RGB image, Depth image and the Masked image captured through Kinect.
+- The functions have been created to draw the skeleton of Left and Right hand. 
+- The program plays an audio file.
+- There are two sliders to control the volume and speed of audio being played (which are controlled via Kinect using hand skeleton). 
+- As the user moves his hand on the slider, the volume/speed of the audio file changes accordingly.
+- Later I will integrate hand functions to the Volume Controller and Image Gallery Module and will refine the output interface.
